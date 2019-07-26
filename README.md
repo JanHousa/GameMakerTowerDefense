@@ -1,2 +1,2 @@
-# GameMakerTowerDefense
-GameMakerTowerDefense
+# Tower Defense game
+
