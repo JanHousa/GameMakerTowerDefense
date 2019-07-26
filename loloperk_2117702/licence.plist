@@ -1,0 +1,34 @@
+<plist version="1.0">
+<dict>
+	<key>Signature</key>
+	<data>
+	dTmMM1Nx9OdysBUcg29DBkOFrJSlj+ngvT7NqM1BoCncXK1JqWIB+8UbgPF1Gr7wJouo
+	tUTCgpxF7QT9KL0wh0fEgUk3guWyAgJmq7WSjgQJvrNPEnBMGN/bmMougp4ZRVipSmlF
+	eyEdfuxhgDYURYnLaL1M0l4f+3UxWx2CKQg=
+	</data>
+	<key>answer</key>
+	<string>819871163_936401310C65B56FDBD9D49BBC7CD2A2</string>
+	<key>components</key>
+	<string>beta;trial30</string>
+	<key>device_id</key>
+	<string>00555553A9ADA8C6A66035205C997D5F</string>
+	<key>disabled_features</key>
+	<string/>
+	<key>email</key>
+	<string>loloperk@gmail.com</string>
+	<key>expiry_date</key>
+	<string>2019-08-24 23:59:59 UTC</string>
+	<key>id</key>
+	<integer>2117702</integer>
+	<key>name</key>
+	<string>Tomáš Hrazdira</string>
+	<key>renewal_dates</key>
+	<string>trial30.2019-08-24 23:59:59 UTC</string>
+	<key>resource_limits</key>
+	<string>H4sIAAAAAAAEAGWPQYvCQAyFzxb8D9LzHtwFL97EVdnTFqfgeWyjRtvJkKYgiv/d6VRslj2+Ly8vL/dxMkqNZxRIJ/PJ1/SjAzlW0IA0EUViqHVl1J+9JbNyinrWzwtGL9pgTrYEjqQHa3KiNnKsoUIH6sjv/gzFK6Q3bYnqJh29l76t2ENXbohdXQVcg+QUW5I74FGBHK7SMmT2CAZvMAwyW1wCXDJYCRnDIDzMBYQgYaoG/FN7YtHX/2qzWyvhw3//SmyYWq+6LdoSScFx8ngC2rrfEpYBAAA=</string>
+	<key>status</key>
+	<string>success</string>
+	<key>token</key>
+	<string>15935f93b65a0c3b254f03297462efa4</string>
+</dict>
+</plist>

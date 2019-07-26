@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureGroup>
+  <texture scale="1" mipsToGenerate="0">Default_0.png</texture>
+  <tpe x="4" y="4" tpage="Default_0" entry="0">tTiles_output_tileset.tpe</tpe>
+  <tpe x="2" y="82" tpage="Default_0" entry="1">sEnemy_0d542343-558f-4bb2-a408-75f46165958a.tpe</tpe>
+  <tpe x="38" y="82" tpage="Default_0" entry="2">sTowers1_fc882190-9a02-4d48-ae50-9eda45bff26d.tpe</tpe>
+  <tpe x="82" y="2" tpage="Default_0" entry="3">sTowers2_2d324616-3cb6-44e3-b967-d489ca47177a.tpe</tpe>
+  <tpe x="82" y="38" tpage="Default_0" entry="4">sTowers3_a7d611c0-3a06-4740-9c18-e8c71721b41a.tpe</tpe>
+  <tpe x="2" y="118" tpage="Default_0" entry="5">sBullet_bf395ff7-2054-4d2f-bbbe-287a5bddb276.tpe</tpe>
+</TextureGroup>

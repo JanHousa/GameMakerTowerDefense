@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TPE>
+  <w>32</w>
+  <h>32</h>
+  <name>Default</name>
+  <hasAlpha>True</hasAlpha>
+  <hash>2504182532</hash>
+  <xoffset>0</xoffset>
+  <yoffset>0</yoffset>
+  <cropWidth>32</cropWidth>
+  <cropHeight>32</cropHeight>
+  <ow>32</ow>
+  <oh>32</oh>
+  <image>sTowers3_a7d611c0-3a06-4740-9c18-e8c71721b41a.tpe.png</image>
+</TPE>
