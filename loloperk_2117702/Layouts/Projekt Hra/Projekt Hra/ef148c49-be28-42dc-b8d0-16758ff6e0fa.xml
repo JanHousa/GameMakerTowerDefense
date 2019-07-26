@@ -2,31 +2,44 @@
 <Project ActiveConfig="default" Platform="Windows" Runtime="VM" Device="Default">
 	<Desktop x="-8" y="-8" width="1920" height="1017" id="19" title="Projekt Hra - GameMaker Studio 2" windowState="Maximized">
 		<Workspaces>
-			<Workspace active="False" chain="True" title="Workspace 1" localise_title="Workspace_TabTitle" localise_arguments="[&#xD;&#xA;    &quot;1&quot;&#xD;&#xA;]" workspace_offset="[1397, 1461]" workspace_scale="1">
+			<Workspace active="True" chain="True" title="Workspace 1" localise_title="Workspace_TabTitle" localise_arguments="[&#xD;&#xA;    &quot;1&quot;&#xD;&#xA;]" workspace_offset="[1996, 284]" workspace_scale="1">
 				<Module Command="open_sprite_editor">
-					<SpriteEditor SpriteEditor_Id="cb6f34b7-b690-417c-a236-782cba2789d6">
-						<WorkspaceChain left="1397dpi_px" top="1647dpi_px" />
+					<SpriteEditor SpriteEditor_Id="91c115b7-281d-4b9e-a8bd-7c453611ab3a">
+						<WorkspaceChain left="1756dpi_px" top="2295dpi_px" />
 					</SpriteEditor>
 				</Module>
-				<Module Command="open_sprite_editor">
-					<SpriteEditor SpriteEditor_Id="13843fe8-5e3a-46d8-a1c0-70a3f1bed22f">
-						<WorkspaceChain left="1397dpi_px" top="2319dpi_px" />
-					</SpriteEditor>
+				<Module Command="open_tileset_editor">
+					<TileSetEditor tilesetId="2e9030b0-c63d-4ea7-a53d-1e4cc5e48223" properties="true" brushbuilder="false" animation="false" autotile="false">
+						<WorkspaceChain left="1756dpi_px" top="1785dpi_px" />
+					</TileSetEditor>
 				</Module>
-				<Module Command="open_sprite_editor">
-					<SpriteEditor SpriteEditor_Id="7c783d60-4973-4e5b-a4f5-348444deadf9">
-						<WorkspaceChain left="1397dpi_px" top="2991dpi_px" />
-					</SpriteEditor>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectId="c9be53c5-008e-47f0-9310-516f12ef5f77" objectName="oSpawn" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="false" activeWindow="editor">
+						<WorkspaceChain left="1756dpi_px" top="1115dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\oSpawn\Create_0.gml" resource="c9be53c5-008e-47f0-9310-516f12ef5f77" subResource="3f5c5f0a-bbd8-42f3-afbf-d5e9e7f6063b" overridden_title="False" view_readonly="false" />
+							<Script column="0" file="${project_dir}\objects\oSpawn\Alarm_0.gml" resource="c9be53c5-008e-47f0-9310-516f12ef5f77" subResource="aaad6b95-41a3-4d63-8b53-9b7f4ad232ce" overridden_title="False" view_readonly="false" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectId="23a5241a-c491-48be-b484-087f6ce36d8f" objectName="oEnemy" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="false" activeWindow="editor">
+						<WorkspaceChain left="1756dpi_px" top="485dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\oEnemy\Create_0.gml" resource="23a5241a-c491-48be-b484-087f6ce36d8f" subResource="d97fca74-8e82-4874-bb47-d69d4db86e98" overridden_title="False" view_readonly="false" />
+						</DocumentWindow>
+					</ObjectEditor>
 				</Module>
 			</Workspace>
 			<Workspace active="False" chain="False" title="room0" localise_title="" workspace_offset="[0, 0]" workspace_scale="1">
 				<Module Command="open_room_editor" WorkspaceOwner="true">
 					<Room id="98727d8d-d3f4-4221-a818-b7e7bec6d324">
 						<RoomEditArea>
-							<PanArea zoom="1.690299" pan="[-62.77261, -40.59161]" />
+							<PanArea zoom="1.009375" pan="[-0.9907227, -105.7833]" />
 							<Properties />
 							<Selected>
-								<Layer GUID="17db30c8-52d6-4b7f-9614-12bfab53f65c" />
+								<Layer GUID="f5fff2af-785e-46ae-afd5-9534b40a1bfd" />
+								<Item GUID="d15ac91c-c859-44ab-9a3a-0dfc0d8eab0b" />
 							</Selected>
 						</RoomEditArea>
 					</Room>
@@ -34,7 +47,7 @@
 			</Workspace>
 		</Workspaces>
 		<Dock state="Expanded" type="eLeft" restore_size="315dpi_px" active_tab="0">
-			<DockTab localise_title="RoomEditor_DockTab" cell_sizes="[466,267,266]" layout_id="room_editor_tab" layout_guid="e5777258-37d9-48ac-b426-56e2a1ee7c4e" />
+			<DockTab localise_title="RoomEditor_DockTab" cell_sizes="[465,266,266]" layout_id="room_editor_tab" layout_guid="e5777258-37d9-48ac-b426-56e2a1ee7c4e" />
 		</Dock>
 		<Dock state="Expanded" type="eRight" restore_size="303.2109dpi_px" active_tab="0">
 			<DockTab localise_title="ResourceTree_Title" cell_sizes="[890,109]" layout_id="dock_tab_1" layout_guid="00aa34e0-6710-46de-8b21-58fc6baf081f">
@@ -45,6 +58,7 @@
 					<RecentWindowsWindow left="" right="" top="" bottom="" width="400dpi_px" height="100dpi_px" flags="Default" title="Recent Windows" localise_title="recentwindows_title" />
 				</Module>
 			</DockTab>
+			<DockTab localise_title="RoomEditor_DockTab" cell_sizes="[1000]" layout_id="room_editor_tab" layout_guid="bbe1c0c3-3611-46b6-a502-77326b10b886" />
 		</Dock>
 	</Desktop>
 	<Modules>
@@ -53,8 +67,8 @@
 		</YoYoStudio.Plugins.CorePlugins.DnD.DnDModule>
 		<YoYoStudio.Plugins.CorePlugins.RoomEditorModule>
 			<RoomEditor>
-				<LayerProperties left="20dpi_px" right="" top="" bottom="350dpi_px" width="260dpi_px" height="330dpi_px" flags="Default" title="Instances_1 Layer Properties - room0" localise_title="RoomEditor_LayerProperties" dock_type="eLeft" dock_tab_index="0" dock_list_index="1" dock_proportion="0.8024417" dock_tab_name="Room Editor" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_id="room_editor_tab" dock_tab_guid="e5777258-37d9-48ac-b426-56e2a1ee7c4e" desktop="19" />
-				<Layers left="340dpi_px" right="" top="" bottom="270dpi_px" width="320dpi_px" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeButton" title="Layers - room0" localise_title="RoomEditor_Layers" dock_type="eLeft" dock_tab_index="0" dock_list_index="0" dock_proportion="1.398446" dock_tab_name="Room Editor" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_id="room_editor_tab" dock_tab_guid="e5777258-37d9-48ac-b426-56e2a1ee7c4e" desktop="19" />
+				<LayerProperties left="20dpi_px" right="" top="" bottom="350dpi_px" width="260dpi_px" height="330dpi_px" flags="Default" title="Path_2 Layer Properties - room0" localise_title="RoomEditor_LayerProperties" dock_type="eLeft" dock_tab_index="0" dock_list_index="1" dock_proportion="0.7991121" dock_tab_name="Room Editor" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_id="room_editor_tab" dock_tab_guid="e5777258-37d9-48ac-b426-56e2a1ee7c4e" desktop="19" />
+				<Layers left="340dpi_px" right="" top="" bottom="270dpi_px" width="320dpi_px" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeButton" title="Layers - room0" localise_title="RoomEditor_Layers" dock_type="eLeft" dock_tab_index="0" dock_list_index="0" dock_proportion="1.395116" dock_tab_name="Room Editor" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_id="room_editor_tab" dock_tab_guid="e5777258-37d9-48ac-b426-56e2a1ee7c4e" desktop="19" />
 				<RoomProperties left="10dpi_px" right="" top="125dpi_px" bottom="" width="300dpi_px" height="240dpi_px" flags="Default" title="Properties - room0" localise_title="RoomEditor_RoomProperties" dock_type="eLeft" dock_tab_index="0" dock_list_index="2" dock_proportion="0.799112" dock_tab_name="Room Editor" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_id="room_editor_tab" dock_tab_guid="e5777258-37d9-48ac-b426-56e2a1ee7c4e" desktop="19" />
 			</RoomEditor>
 		</YoYoStudio.Plugins.CorePlugins.RoomEditorModule>
